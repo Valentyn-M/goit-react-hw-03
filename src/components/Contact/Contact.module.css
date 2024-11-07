@@ -31,4 +31,11 @@
 
 .field {
 	word-break: break-all;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.icon {
+	flex-shrink: 0;
 }
