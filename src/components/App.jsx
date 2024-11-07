@@ -6,6 +6,7 @@ import initialContacts from '../assets/contacts.json'
 import { useEffect, useState } from 'react'
 
 function App() {
+
 	// Стан для збереження контактів
 	const [contacts, setContacts] = useState(() => {
 
@@ -18,6 +19,7 @@ function App() {
 		// Якщо в локальному сховищі браузера нічого немає раніше збережених контактiв
 		return initialContacts;
 	});
+
 	// Стан для збереження значення пошукового поля (компонент SearchBox)
 	const [filter, setFilter] = useState('');
 
